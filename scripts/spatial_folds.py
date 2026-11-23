@@ -32,7 +32,9 @@ from scipy.sparse import coo_matrix
 from scipy.sparse.csgraph import connected_components
 from scipy.spatial import cKDTree
 
-DATABASE = Path(__file__).resolve().parents[1] / "data" / "team_data_v1.duckdb"
+DATA = Path(__file__).resolve().parents[1] / "data"
+DATABASE = next((DATA / n for n in ("team_data_full_v1.duckdb", "team_data_v1.duckdb") if (DATA / n).exists()),
+                DATA / "team_data_full_v1.duckdb")
 EARTH_RADIUS_KM = 6371.0088
 GAP_KM = 2.0
 FOLDS = 5
