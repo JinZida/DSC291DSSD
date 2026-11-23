@@ -1,0 +1,7 @@
+duckdb>=1.0
+pandas
+numpy
+scipy
+scikit-learn
+pyarrow
+jupyter
