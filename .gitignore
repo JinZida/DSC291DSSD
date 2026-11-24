@@ -1,5 +1,6 @@
-# Project data
-/data/
+# Project data: the folder stays, its files never enter git
+/data/*
+!/data/.gitkeep
 
 # macOS Finder metadata
 .DS_Store

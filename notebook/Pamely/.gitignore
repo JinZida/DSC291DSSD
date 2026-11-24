@@ -1,0 +1,7 @@
+data/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.zip
+*.tar.gz
+.mplconfig/
