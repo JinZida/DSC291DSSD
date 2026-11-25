@@ -24,4 +24,4 @@ The output preserves field_season_id, release, country_iso3, data_set, season_ye
 
 The full database has monthly summaries but not every raw satellite scene or native field pixel. The earlier top-15 raw-image selection **cannot be reconstructed from this file** and is not claimed here.
 
-**Preprocessed data link:** pending upload of data/clean/allen_model_ready.parquet to a team-accessible, restricted Drive location.
+**Preprocessed data:** [download allen_model_ready.parquet from Google Drive](https://drive.google.com/file/d/148cIGPRT7OOTYU_PP05MXbVTNr5Q6J1v/view?usp=sharing). This is the exported model table, not the private source database.
