@@ -22,7 +22,7 @@ Put the private database at data/team_data_full_v1.duckdb, install notebook/Alle
 - top15_dev_features_raw_v1/ and top15_dev_features_raw_oaf5/: medians of selected scenes and season features.
 - top15_model_ready.parquet: one row per eligible development field, with official fold and yield metadata.
 
-The previous Drive link pointed to the incorrect monthly-clearest comparison. It was removed from this submission. The corrected top15_model_ready.parquet is ready locally; its replacement Drive link must be added before merging the PR. Do not upload the private source database to GitHub or a public Drive location.
+**Preprocessed data:** [Download the top-15 model table from Google Drive](https://drive.google.com/file/d/18nHU4yGQfF2Qzli_PNbUTlDgcawmcdj4/view?usp=sharing). This link is for top15_model_ready.parquet, not the private source database. Do not upload the private source database to GitHub or a public Drive location.
 
 ## Limits
 
