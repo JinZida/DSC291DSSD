@@ -1,4 +1,5 @@
 # Project data: the folder stays, its files never enter git
+/archive/*
 /data/*
 !/data/.gitkeep
 
